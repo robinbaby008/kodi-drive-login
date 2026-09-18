@@ -60,6 +60,11 @@ export default function Home() {
         <Card className="w-full max-w-md bg-muted/50 shadow-xl border-none rounded-md sm:p-6 ">
           <CardHeader>
             <div className="text-center relative font-semibold leading-none tracking-tight">
+              <img
+                src="/logo.png"
+                alt="Kodi Sync logo"
+                className="mx-auto mb-4 h-24 w-auto"
+              />
               <h1 className="inline text-[#353132] font-bold text-3xl tracking-tighter leading-none pr-2">
                 Kodi Sync
               </h1>
