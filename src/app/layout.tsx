@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Kodi Sync",
   description:
     "Activate your Kodi device and stream your personal media files directly from Google Drive.",
+  verification: {
+    google: "zjBZ5m2pwsDv-anh7i79KYYdxOfGaz8kzW39tf-00Ns",
+  },
 };
 
 export default function RootLayout({
