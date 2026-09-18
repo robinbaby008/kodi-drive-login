@@ -7,7 +7,6 @@ import {
   CardDescription,
   CardFooter,
   CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
 import {
   InputOTP,
@@ -60,12 +59,12 @@ export default function Home() {
       <div className="flex h-[90%] justify-center items-center gap-10 p-2">
         <Card className="w-full max-w-md bg-muted/50 shadow-xl border-none rounded-md sm:p-6 ">
           <CardHeader>
-            <CardTitle className="text-center relative">
-              <span className="text-[#353132] font-bold text-3xl tracking-tighter leading-none pr-2">
+            <div className="text-center relative font-semibold leading-none tracking-tight">
+              <h1 className="inline text-[#353132] font-bold text-3xl tracking-tighter leading-none pr-2">
                 Kodi Sync
-              </span>
+              </h1>
               <Badge className="absolute align-text-top">v2.0.0</Badge>
-            </CardTitle>
+            </div>
           </CardHeader>
           <form onSubmit={handleAuth}>
             <CardContent className="grid gap-8">
