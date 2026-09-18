@@ -74,6 +74,10 @@ export default function Home() {
           <form onSubmit={handleAuth}>
             <CardContent className="grid gap-8">
               <CardDescription className="text-center grid">
+                <span>
+                  Kodi Sync connects your Google Drive to your Kodi media player so you can stream
+                  your personal videos, music, and photos.
+                </span>
                 <span className="text-[#353132] font-bold text-xl tracking-tighter leading-none">
                   Activate your Kodi
                 </span>
