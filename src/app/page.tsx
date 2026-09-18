@@ -73,7 +73,7 @@ export default function Home() {
           </CardHeader>
           <form onSubmit={handleAuth}>
             <CardContent className="grid gap-8">
-              <CardDescription className="text-center grid">
+              <CardDescription className="text-center grid gap-4">
                 <span>
                   Kodi Sync connects your Google Drive to your Kodi media player so you can stream
                   your personal videos, music, and photos.

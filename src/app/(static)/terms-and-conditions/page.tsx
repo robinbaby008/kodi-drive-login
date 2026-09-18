@@ -36,7 +36,7 @@ export default function TermsAndConditionsPage() {
                 </p>
                 <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
                 <p className="mb-4">
-                    If you have any questions about these Terms and Conditions, please contact us at [your contact information].
+                    If you have any questions about these Terms and Conditions, please contact us at robin.robinbaby008@gmail.com.
                 </p>
             </div>
         </div>
